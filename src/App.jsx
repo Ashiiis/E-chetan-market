@@ -7,6 +7,7 @@ import PrimaryCategorySection from './components/Categories/Primarycategory';
 import UserProfileForm from './components/Signuppage';
 import SignupForm from './components/Signuppage';
 import ShopForm from './components/admin/shopdata';
+import Footer from './components/footer/footer';
 import './App.css';
 
 function HomePage() {
@@ -16,6 +17,7 @@ function HomePage() {
       <SliderWithCards />
       <BulletinStrip />
       <PrimaryCategorySection />
+      <Footer/>
     </div>
   );
 }

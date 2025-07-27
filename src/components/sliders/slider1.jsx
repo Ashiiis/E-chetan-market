@@ -86,8 +86,8 @@ const SliderWithCards = () => {
         className="w-full h-full object-cover"
         style={{
           aspectRatio: '1 / 1',
-          transition: 'opacity 0.4s',
-          opacity: fadeCards ? 0 : 1,
+          // transition: 'opacity 0.4s',
+          // opacity: fadeCards ? 0 : 1,
         }}
       />
     </div>
