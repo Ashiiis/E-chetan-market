@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { createUserWithEmailAndPassword } from 'firebase/auth';
-import { auth } from '../firebase-config'; // import your initialized auth here
-
+import { auth } from '../../firebase-config'; // import your initialized auth here
+import Navbar from '../Navbar/Navbar';
+import Footer from '../footer/footer';
 const SignupForm = () => {
   const [form, setForm] = useState({
     email: '',
@@ -46,7 +47,10 @@ const SignupForm = () => {
   };
 
   return (
+    <div className='signup'>
+      <Navbar/>
     <div className="max-w-md mx-auto mt-10 p-6 bg-white shadow rounded-lg">
+      
       <h2 className="text-xl font-bold mb-4 text-center">Sign Up</h2>
 
       {message && <p className="text-center text-sm mb-3">{message}</p>}
@@ -88,6 +92,8 @@ const SignupForm = () => {
           {loading ? 'Creating...' : 'Sign Up'}
         </button>
       </form>
+    </div>
+    <Footer/>
     </div>
   );
 };

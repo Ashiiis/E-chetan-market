@@ -4,9 +4,10 @@ import SliderWithCards from './components/sliders/slider1';
 import BulletinStrip from './components/Bulliten';
 import QuickLinks from './components/Navbar/Secondarynav';
 import PrimaryCategorySection from './components/Categories/Primarycategory';
-import UserProfileForm from './components/Signuppage';
-import SignupForm from './components/Signuppage';
+import UserProfilePage from './components/userRegistration/UserProfile';
+import SignupForm from './components/userRegistration/Signuppage';
 import ShopForm from './components/admin/shopdata';
+import OrderHistory from './components/orders/orderhistory';
 import Footer from './components/footer/footer';
 import './App.css';
 
@@ -27,8 +28,11 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/signup" element={<SignupForm />} />
+        <Route path="/user-signup" element={<SignupForm />} />
         <Route path="/shop-form" element={<ShopForm />} />
+        <Route path="/user-profile" element={<UserProfilePage />} />
+        <Route path="/order-history" element={<OrderHistory />} />
+
       </Routes>
     </Router>
   );
