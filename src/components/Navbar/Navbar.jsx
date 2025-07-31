@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react';
 import { ChevronDownIcon, Bars3Icon, XMarkIcon } from '@heroicons/react/20/solid';
 import { Link } from 'react-router-dom';
@@ -78,13 +79,13 @@ const Navbar = () => {
               80+ active users
             </span>
             <div className="relative group">
-                <Link to="/store">
+                <Link to="/shops">
                 <i className="fas fa-house text-gray-600 text-xl cursor-pointer"></i>
                 </Link>          
                 <div className="absolute left-1/2 transform -translate-x-1/2 top-full mt-1
                                 bg-gray-500 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 
                                 transition duration-200 whitespace-nowrap z-10">
-                  Your Store
+                  All Shops
                 </div>
               </div>
 
