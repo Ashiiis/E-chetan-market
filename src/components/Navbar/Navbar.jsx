@@ -150,8 +150,8 @@ const Navbar = () => {
       </button>
 
       <div className="block text-gray-700 hover:text-black">
-        Home
-        <Link to="/user-signup"> 
+        All Shops
+        <Link to="/shops"> 
         <i className="fas fa-house ml-2"></i>
         </Link>
       </div>
