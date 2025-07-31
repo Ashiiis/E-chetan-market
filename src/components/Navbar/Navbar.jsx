@@ -148,21 +148,33 @@ const Navbar = () => {
         <i className="fas fa-times text-xl"></i>
       </button>
 
-      <a href="#" className="block text-gray-700 hover:text-black">
-        Home <i className="fas fa-house ml-2"></i>
-      </a>
-      <a href="#" className="block text-gray-700 hover:text-black">
-        Shops <i className="fas fa-store ml-2"></i>
-      </a>
-      <a href="#" className="block text-gray-700 hover:text-black">
-        Cart <i className="fas fa-cart-shopping ml-2"></i>
-      </a>
-      <a href="#" className="block text-gray-700 hover:text-black">
-        Profile <i className="fas fa-user ml-2"></i>
-      </a>
-      <a href="#" className="block text-gray-700 hover:text-black">
-        Support <i className="fas fa-headset ml-2"></i>
-      </a>
+      <div className="block text-gray-700 hover:text-black">
+        Home
+        <Link to="/user-signup"> 
+        <i className="fas fa-house ml-2"></i>
+        </Link>
+      </div>
+      
+      <div  className="block text-gray-700 hover:text-black">Shops 
+        <Link to="user-signup">
+          <i className="fas fa-store ml-2"></i>
+        </Link>
+      </div>
+      <div className="block text-gray-700 hover:text-black">Cart 
+        <Link to="/user-signup">
+          <i className="fas fa-cart-shopping ml-2"></i>
+        </Link>
+      </div>
+      <div className="block text-gray-700 hover:text-black">Profile 
+        <Link to="/user-signup">
+          <i className="fas fa-user ml-2"></i>
+        </Link>
+      </div>
+      <div className="block text-gray-700 hover:text-black">Support 
+        <Link to="/user-signup">
+        <i className="fas fa-headset ml-2"></i>
+        </Link>
+      </div>
     </div>
   </div>
 )}

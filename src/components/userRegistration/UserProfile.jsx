@@ -28,8 +28,8 @@ const UserProfilePage = () => {
   };
 
   return (
-    <div className='userprofile'>
-        <Navbar/>
+    // <div className='userprofile'>
+    //     <Navbar/>
     <div className="min-h-screen bg-gray-100 py-10 px-4">
       <div className="max-w-xl mx-auto bg-white p-6 rounded-lg shadow-md">
         <h2 className="text-2xl font-bold mb-6 text-center">Your Profile</h2>
@@ -136,8 +136,8 @@ const UserProfilePage = () => {
         </form>
       </div>
     </div>
-    <Footer/>
-    </div>
+    // <Footer/>
+    // </div>
   );
 };
 

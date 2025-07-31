@@ -62,13 +62,13 @@ const SliderWithCards = () => {
 
         {/* Description directly under slider */}
         <div className=" shadow-md rounded-lg p-1 text-slate-900 bg-slate-300 space-x-1 text-center space-y-2">
-          <p className="text-base md:text-lg leading-relaxed">
+          <div className="text-base md:text-lg leading-relaxed">
             Your one-stop destination for a wide range of local and branded products. 
-            <div className='hidden md:grid '>Explore everything from fresh produce to lifestyle essentials, all under one roof.</div>
+            <p className='hidden md:grid '>Explore everything from fresh produce to lifestyle essentials, all under one roof.</p>
             <button className="inline-block bg-white hover:bg-gray-500 text-gray-800 font-semibold py-1 px-3 rounded-full shadow transition">
             View on Map
           </button>
-          </p>
+          </div>
           
         </div>
       </div>
