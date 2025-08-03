@@ -7,6 +7,8 @@ import BulletinStrip from './components/Bulliten';
 import PrimaryCategorySection from './components/Categories/Primarycategory';
 import LoaderSpinner from './components/LoadSpinner';
 import ShopDetailView from './components/ShopDisplay/ShopProductdetails';
+import { CartProvider } from './components/addtocart/cardContext';
+import CartPage from './components/addtocart/CartUI';
 // lazyLoaders
 const  SignupForm = lazy(() => import ('./components/userRegistration/Signuppage'));
 const ShopForm =lazy(() => import ('./components/datasets/shopdata'));
@@ -31,6 +33,7 @@ function HomePage() {
 
 function App() {
   return (
+    <CartProvider>
     <Router>
       <Suspense fallback={<LoaderSpinner />}>
       <Routes>
@@ -40,10 +43,11 @@ function App() {
         <Route path="/user-account" element={<UserDashboard />} />
         <Route path="/shops" element={<ShopListDisplay/>} />
         <Route path="/shop/:id" element={<ShopDetailView/>} />
-
+        <Route path="/cart" element={<CartPage />} />
       </Routes>
       </Suspense>
     </Router>
+    </CartProvider>
   );
 }
 

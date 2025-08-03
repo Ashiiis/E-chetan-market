@@ -120,7 +120,7 @@ const Navbar = () => {
                 </div>
               </div>
             <div className="relative group">
-                <Link to="/be-a-seller">
+                <Link to="/cart">
                 <i className="fas fa-cart-shopping text-gray-600 text-xl cursor-pointer"></i>
                 </Link>          
                 <div className="absolute left-1/2 transform -translate-x-1/2 top-full mt-1
@@ -170,7 +170,7 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="block text-gray-700 hover:text-black">Cart 
-        <Link to="/user-signup">
+        <Link to="/cart">
           <i className="fas fa-cart-shopping ml-2"></i>
         </Link>
       </div>

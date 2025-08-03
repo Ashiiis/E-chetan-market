@@ -5,7 +5,7 @@ const shopList = [
     name: "Fresh Mart",
     category: "Grocery",
     image: "https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg",
-    description: "Your daily needs, fresh and affordable.",
+    description: "A grocery store is a retail establishment that sells food and household supplies. These stores typically offer a wide variety of products, including fresh produce, packaged goods, dairy, meats, and personal care items. They are essential for communities, providing convenient access to everyday necessities. ",
     products: [
       {
         name: "Basmati Rice",

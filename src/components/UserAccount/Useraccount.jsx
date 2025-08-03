@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Suspense, lazy } from 'react';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../footer/footer';
+import CartPage from '../addtocart/CartUI';
 // import UserProfilePage from '../userRegistration/UserProfile';
 // import OrderHistory from '../orders/orderhistory';
 const OrderHistory = lazy(() => import('../orders/orderhistory'));
@@ -20,7 +21,7 @@ const sectionComponents = {
   'Past Orders': <OrderHistory/>,
   'Downloads': <div>Downloadable Items</div>,
   'Wishlist': <div>Your Wishlist</div>,
-  'Cart': <div>Your Cart</div>,
+  'Cart': <CartPage/>,
   'Payment Details': <div>Your Payment Methods</div>,
 };
 
