@@ -18,24 +18,32 @@ const Navbar = () => {
           <div className="flex items-center">
             {/* Full name for md+ */}
             <div className="hidden md:flex items-center space-x-2">
-              <span className="text-2xl font-bold text-gray-800">Chetan Market</span>
-              
-            </div>
-            {/* Small screen: Short logo */}
-            <div className="md:hidden">
-              <span className="text-xl font-bold text-gray-800">CM</span>
-            </div>
+  <img
+    src="/largelogo.png"
+    alt="CM"
+    className="h-10 w-auto object-contain" // max height set
+  />
+</div>
+
+{/* Small screen: Short logo */}  
+<div className="md:hidden">
+  <img
+    src="/smlogo.png"
+    alt="CM"
+    className="h-10 w-auto object-contain" // max height set
+  />
+</div>
           </div>
 
           {/* Center: Search + Categories (only md+) */}
         <div className='flex-grow px-4 flex items-center space-x-4  justify-center'>
           <div className="">
   {/* Search bar - always visible */}
-            <div className="relative w-full max-w-lg">
+            <div className="relative w-full max-w-xl">
               <input
                 type="text"
                 placeholder="Search..."
-                className="w-full pl-10 pr-4 py-[0.7%] shadow-sm rounded-full border border-zinc-300 text-black placeholder-black focus:outline-none focus:ring-2 focus:ring-gray-300"
+                className="w-full pl-10 pr-4 py-[1.4%] shadow-sm rounded-full border border-zinc-300 text-black placeholder-black focus:outline-none focus:ring-2 focus:ring-gray-300"
               />
               <i className="fas fa-magnifying-glass absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500 text-sm"></i>
             </div>
@@ -183,7 +191,7 @@ const Navbar = () => {
       </nav>
 
       {/* Mobile: Categories shown below navbar */}
-        <div className="md:hidden overflow-x-auto no-scrollbar mt-2 scroll-smooth">
+        <div className="md:hidden overflow-x-auto no-scrollbar mt-2 mb-2 scroll-smooth">
           <div className="flex space-x-3 w-max px-2">
             {categories.map((cat, i) => (
               <div

@@ -24,7 +24,7 @@ const Footer = () => {
         {/* Right Section */}
         <div className="flex-1 w-full flex justify-center flex-col items-start md:items-end">
           <img
-            src="/logo.png"
+            src="/largelogo.png"
             alt="CM"
             className="w-16 flex justify-center h-auto mb-3"
           />

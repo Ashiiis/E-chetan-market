@@ -6,10 +6,10 @@ import SliderWithCards from './components/sliders/slider1';
 import BulletinStrip from './components/Bulliten';
 import PrimaryCategorySection from './components/Categories/Primarycategory';
 import LoaderSpinner from './components/LoadSpinner';
-
+import ShopDetailView from './components/ShopDisplay/ShopProductdetails';
 // lazyLoaders
 const  SignupForm = lazy(() => import ('./components/userRegistration/Signuppage'));
-const ShopForm =lazy(() => import ('./components/admin/shopdata'));
+const ShopForm =lazy(() => import ('./components/datasets/shopdata'));
 const UserDashboard = lazy(() => import ('./components/UserAccount/Useraccount'));
 const ShopListDisplay = lazy(() => import ('./components/ShopDisplay/Display1'));
 
@@ -24,6 +24,7 @@ function HomePage() {
       <BulletinStrip />
       <PrimaryCategorySection />
       <Footer/>
+      <ShopDetailView/>
     </div>
   );
 }
@@ -38,6 +39,7 @@ function App() {
         <Route path="/shop-form" element={<ShopForm />} />
         <Route path="/user-account" element={<UserDashboard />} />
         <Route path="/shops" element={<ShopListDisplay/>} />
+        <Route path="/shop/:id" element={<ShopDetailView/>} />
 
       </Routes>
       </Suspense>

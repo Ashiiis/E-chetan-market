@@ -69,6 +69,144 @@ const shopList = [
         price: 1599
       }
     ]
+  },
+  {
+    name: "Tech Paradise",
+    category: "Electronics",
+    image: "https://images.pexels.com/photos/1054397/pexels-photo-1054397.jpeg",
+    description: "Latest gadgets and accessories.",
+    products: [
+      {
+        name: "Bluetooth Speaker",
+        description: "Portable with deep bass",
+        price: 1299
+      },
+      {
+        name: "Wireless Mouse",
+        description: "Ergonomic and rechargeable",
+        price: 499
+      },
+      {
+        name: "Smart Watch",
+        description: "Fitness tracker with heart monitor",
+        price: 1599
+      }
+    ]
+  },
+  {
+    name: "Tech Paradise",
+    category: "Electronics",
+    image: "https://images.pexels.com/photos/1054397/pexels-photo-1054397.jpeg",
+    description: "Latest gadgets and accessories.",
+    products: [
+      {
+        name: "Bluetooth Speaker",
+        description: "Portable with deep bass",
+        price: 1299
+      },
+      {
+        name: "Wireless Mouse",
+        description: "Ergonomic and rechargeable",
+        price: 499
+      },
+      {
+        name: "Smart Watch",
+        description: "Fitness tracker with heart monitor",
+        price: 1599
+      }
+    ]
+  },
+  {
+    name: "Tech Paradise",
+    category: "Electronics",
+    image: "https://images.pexels.com/photos/1054397/pexels-photo-1054397.jpeg",
+    description: "Latest gadgets and accessories.",
+    products: [
+      {
+        name: "Bluetooth Speaker",
+        description: "Portable with deep bass",
+        price: 1299
+      },
+      {
+        name: "Wireless Mouse",
+        description: "Ergonomic and rechargeable",
+        price: 499
+      },
+      {
+        name: "Smart Watch",
+        description: "Fitness tracker with heart monitor",
+        price: 1599
+      }
+    ]
+  },
+  {
+    name: "Tech Paradise",
+    category: "Electronics",
+    image: "https://images.pexels.com/photos/1054397/pexels-photo-1054397.jpeg",
+    description: "Latest gadgets and accessories.",
+    products: [
+      {
+        name: "Bluetooth Speaker",
+        description: "Portable with deep bass",
+        price: 1299
+      },
+      {
+        name: "Wireless Mouse",
+        description: "Ergonomic and rechargeable",
+        price: 499
+      },
+      {
+        name: "Smart Watch",
+        description: "Fitness tracker with heart monitor",
+        price: 1599
+      }
+    ]
+  },
+  {
+    name: "Tech Paradise",
+    category: "Electronics",
+    image: "https://images.pexels.com/photos/1054397/pexels-photo-1054397.jpeg",
+    description: "Latest gadgets and accessories.",
+    products: [
+      {
+        name: "Bluetooth Speaker",
+        description: "Portable with deep bass",
+        price: 1299
+      },
+      {
+        name: "Wireless Mouse",
+        description: "Ergonomic and rechargeable",
+        price: 499
+      },
+      {
+        name: "Smart Watch",
+        description: "Fitness tracker with heart monitor",
+        price: 1599
+      }
+    ]
+  },
+  {
+    name: "Tech Paradise",
+    category: "Electronics",
+    image: "https://images.pexels.com/photos/1054397/pexels-photo-1054397.jpeg",
+    description: "Latest gadgets and accessories.",
+    products: [
+      {
+        name: "Bluetooth Speaker",
+        description: "Portable with deep bass",
+        price: 1299
+      },
+      {
+        name: "Wireless Mouse",
+        description: "Ergonomic and rechargeable",
+        price: 499
+      },
+      {
+        name: "Smart Watch",
+        description: "Fitness tracker with heart monitor",
+        price: 1599
+      }
+    ]
   }
 ];
 
