@@ -12,6 +12,7 @@ const ShopDetailView = () => {
   return (
     <div className='shopdeteails'>
         <Navbar/>
+        <h2 className='text-l font-semibold text-gray-800 ml-2'>Shop :- {shop.name} </h2>
     <div className="w-full p-1 bg-white flex flex-col md:flex-row gap-6">
         
       <div className="md:w-1/2 w-full flex flex-col items-center">
